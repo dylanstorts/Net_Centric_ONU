@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 7:16:19 PM
+    Author     : Dylan Storts
+*/
+#title {
+    font-style: italic;
+    font-size: 300%;
+    color: moccasin;
+    width: 70%;
+}
+#body {
+    background-image: url("wood_repeat_darkened.jpg");
+    
+}
+#side_list {
+    background-image: url("wood_repeat_light.jpg");
+    width: 200px;
+    height: 450px;
+    float: right;
+    color: antiquewhite;
+    font-size: 175%;
+}
+#lichtenberg {
+    border: 5px solid moccasin;
+    width: 70%;
+}
+#lichtenberg_title {
+    font-size: 200%;
+    color: turquoise;
+    width: 70%;
+}
+#lichtenberg_body {
+    font-size: 170%;
+    color: antiquewhite;
+    width: 70%;
+}
+#lichtenberg_img {
+    background-image: url("lichtenberg.jpg");
+    width: 636px;
+    height: 358px;
+}
+#sculptures {
+    padding-top: 20px;
+    border: 5px solid moccasin;
+    width: 70%;
+}
+#sculptures_title {
+    font-size: 200%;
+    color: mediumspringgreen;
+    width: 70%;
+}
+#sculptures_body {
+    font-size: 170%;
+    color: antiquewhite;
+    width: 70%;
+}
+
+#sculpture_link {
+    font-size: 170%;
+}
