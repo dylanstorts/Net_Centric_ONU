@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2017, 12:20:54 PM
+    Author     : Dylan Storts
+*/
+
+table {
+    /*the ad's ratio is 1:4*/
+    width: 1000px;
+    height: 246px;
+    border: 3px solid grey;
+}
+
+td {
+    width: 50%;
+}
+
+#left_corner {
+    position: absolute;
+    background: linear-gradient(to right, seagreen, white);
+    z-index: -1;
+    margin-top: -10px;
+    margin-left: -4px;
+    width: 17%;
+    height: 18.6%;
+}
+
+#logo {
+    background-size: contain;
+    width: 456px;
+    height: 100px;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    margin-top: -18px;
+    z-index: 1;
+}
+
+#p1 {
+    font-size: 175%;
+    margin-left: 4%;
+    margin-top: -20px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-family: Century Gothic;
+
+}
+
+#discount {
+    color: #f06000;
+    font-size: 120%;
+    font-family: arial;
+}
+
+#perm_link {
+    margin-left: 10%;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 140%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+}
+
+#address {
+    float: right;
+    clear: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 170%;
+    font-weight: 600;
+    font-family: Century Gothic;
+    line-height: 30px;
+}
+
+#phone {
+    float: left;
+    clear: right;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-family: Tw Cen MT Condensed, "Tw Cen MT Condensed Extra Bold";
+    font-weight: 900;
+    font-size: 48px;
+    font-stretch: ultra-expanded;
+
+}
+
+#hours {
+    float: left;
+    clear: right;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 120%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#you_link {
+    float: right;
+    clear: right;
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-right: 20%;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-size: 140%;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+}
