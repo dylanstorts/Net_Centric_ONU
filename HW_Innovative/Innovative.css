@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 22, 2017, 2:07:58 PM
+    Author     : Dylan Storts
+
+*/
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /*
+    treated as a z-axis where anything with a higher z-index value
+    is put in front of another with a lower value
+    */
+    
+    /* preserve aspect ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+#Title {
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 20px 20px black;
+    color: crimson; 
+    z-index: 0;
+}
+#table{
+    float: right;
+    text-align: right;
+    font-size:150%;
+    background-image: url("Web_HW.jpg");
+    vertical-align: top;
+    box-shadow: -1px 1px 90px violet;
+}
+#th {
+    color: #d2daea;
+    font-size: 140%;
+}
+#webhw {
+    z-index: 2;
+}
+#description_title {
+    color: whitesmoke;
+    font-size: 400%;
+    text-align: center;
+    text-shadow: 2px 0 15px red, -2px 0 12px blue, 0 2px 12px blue, 0 -2px 12px blue;
+}
+#anime {
+    float: left;
+    width: 80%;
+    font-size: 150%;
+    color: white;
+    text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black;
+}
+
+
+
+
