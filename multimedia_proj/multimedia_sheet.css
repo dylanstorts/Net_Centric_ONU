@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 13, 2017, 10:24:00 PM
+    Author     : Dylan Storts
+*/
+body{
+    background-color: grey;
+}
+p{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 260%;
+    color: antiquewhite;
+    text-shadow: 2px 0 black, 0 2px black, -2px 0 black, 0 -2px black;
+}
+.pdiv{
+    border-top: 5px solid coral;
+    border-right: 5px solid coral;
+    border-radius: 20px;
+    background-color: grey; 
+    clear: left;
+}
+div a{
+    display: inline-block;
+    width: 380px;
+    height: 430px;
+    margin: 2%;
+    text-decoration: none;
+    border-bottom: 3px solid coral;
+    background-position: center top;
+    background-repeat: no-repeat;    
+}
+
+#a_roos    {background-image: url("images/Ausie_Roos_small.png");}
+#a_macro   {background-image: url("images/Australia_globe_small.png");}
+#a_opera   {background-image: url("images/Sydney_Opera_House_at_night_small.png");}
+#a_wfall   {background-image: url("images/west_australia_small.png");}
+#a_aerial  {background-image: url("images/GBReef_aerial_small.png");}
+#a_couple  {background-image: url("images/Couple_adventure_GBReef_small.png");}
+#a_life    {background-image: url("images/GBReef_close_small.png");}
+#a_girl    {background-image: url("images/Girl_snorkling_on_GBReef_small.png");}
+#a_cuttle  {background-image: url("images/UHD_Cuttlefish_small.png");}
+#a_uhd_life{background-image: url("images/UHD_GBReef_small.png");}
+
+a p{
+    width: 94%;
+    margin: 1%;
+    font-size: 150%;
+    margin-top: 82%;
+}
+
+#div_img_rows{
+   width: 90%;
+   margin-left: 6%;
+}
+#div_gbreef_imgs{
+   width: 90%;
+   margin-left: 6%;
+}
+
+#ausie{
+    font-size: 500%;
+}
+
+#opener{
+    width: 100%;
+    height: auto;
+    background-color: darkolivegreen;
+}
+#secondary{
+    width: 100%;
+    height: auto;   
+}
