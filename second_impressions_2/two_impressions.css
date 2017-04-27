@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 7:16:19 PM
+    Author     : Dylan Storts
+*/
+#title {
+    font-style: italic;
+    font-size: 300%;
+    color: moccasin;
+    width: 70%;
+}
+#body {
+    background-image: url("wood_repeat_darkened.jpg");
+    
+}
+@media screen and (min-width: 1050px){
+    #side_list {
+        background-image: url("wood_repeat_darkened.jpg");
+        opacity: 0.65;
+        float: right;
+        width: 200px;
+        height: 450px;
+        color: antiquewhite;
+        font-size: 175%;
+        text-shadow: 2px 0 2px white, -2px 0 2px white, 0 2px 2px white, 0 -2px 2px white;
+    }
+}
+@media screen and (max-width: 1049px){
+    #side_list {
+        background-image: url("wood_repeat_light.jpg");
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 160px;
+        height: 380px;
+        color: antiquewhite;
+        font-size: 150%;
+        text-shadow: 2px 0 2px white, -2px 0 2px white, 0 2px 2px white, 0 -2px 2px white;
+    }
+}
+#lichtenberg {
+    border: 5px solid moccasin;
+    width: 75%;
+}
+#lichtenberg_title {
+    font-size: 200%;
+    color: turquoise;
+    width: 70%;
+    text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black;
+}
+#lichtenberg_body {
+    clear: left;/*starts all content of paragraph after images*/
+    font-size: 170%;
+    color: antiquewhite;
+    text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black;
+}
+
+#lichtenberg_img {
+    float: left;
+    margin: 10px;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+}
+#sculptures {
+    padding-top: 20px;
+    border: 5px solid blueviolet;
+    width: 75%;
+}
+#sculptures_title {
+    font-size: 200%;
+    color: mediumspringgreen;
+    width: 70%;
+    text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black;
+}
+#sculptures_body {
+    font-size: 170%;
+    color: antiquewhite;
+    text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black;
+}
+
+#sculpture_link {
+    font-size: 170%;
+}
